@@ -1,5 +1,5 @@
 # INSTRUCTION PARAMETERS
-FROM ubuntu:latest
+FROM centos:latest
 MAINTAINER shimib
 
 RUN yum -y install mc
