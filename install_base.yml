@@ -4,7 +4,7 @@
       become: yes
       become_method: sudo
       yum: name=git state=latest
-
+# some remark
     - name: Install Docker
       become: yes
       become_method: sudo
